@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+
+
 /* ---- NAV-BAR ---- */
 
 .nav-bar   {
@@ -29,7 +31,8 @@ body {
 }
 
 .nav-items:first-child {
-    margin-right: 60rem;
+
+    margin-right: 50rem;
 }
 
 .nav-items:last-child {
@@ -45,9 +48,28 @@ body {
 /* ---- HERO ---- */
 
 .hero-div {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
     background-color: #252525;
-    height: 300px;
+  
 }
+
+.hero-text-container {
+    margin-top: 8rem;
+}
+
+.hero-header {
+    margin: 0;
+}
+
+.hero-text {
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.join-btn   {
+    margin-top: 8px;
+}
+
+
 
