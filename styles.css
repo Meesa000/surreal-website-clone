@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- NAV-BAR ---- */
+
+.nav-bar   {
+    background-color: #252525;
+}
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav-items {
+    margin-top: 40px;
+    margin-left: 1.5rem;
+    list-style-type: none;
+}
+
+.nav-items a {
+    text-decoration: none;  
+    color: gray;
+}
+
+.nav-items:first-child {
+    margin-right: 60rem;
+}
+
+.nav-items:last-child {
+    margin-right: 50px;
+    margin-left: 100px;
+
+}
+
+.nav-items a:hover{
+    color: white;
+}
+
+/* ---- HERO ---- */
+
+.hero-div {
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+    height: 300px;
+}
+
